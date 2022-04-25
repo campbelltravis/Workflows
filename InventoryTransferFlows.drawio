@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-25T18:12:39.998Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="plWofD41F8mjInVSKm2T" version="17.4.6" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-04-25T20:19:57.985Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="RS70i7oijprpIif4yvO1" version="17.4.6" type="github" pages="3">
   <diagram id="dMTNJAk2IVVD_0sRmip8" name="High Level Flow">
     <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -50,6 +50,14 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.22;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.22;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#1A1A1A;" edge="1" parent="1" source="YERugrDjPcLo9yUdom8d-18" target="YERugrDjPcLo9yUdom8d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-7" value="File - Inventory Transfer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RtewxfC8oNoZey-FWAlM-6">
+          <mxGeometry x="-0.2583" y="-2" relative="1" as="geometry">
+            <mxPoint x="31" y="-6" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YERugrDjPcLo9yUdom8d-18" value="Client" style="rounded=1;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.25,0,0,0],[0,0.5,0,0,0],[0,0.75,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.11,0,0,0],[1,0.22,0,0,0],[1,0.25,0,0,0],[1,0.33,0,0,0],[1,0.44,0,0,0],[1,0.5,0,0,0],[1,0.56,0,0,0],[1,0.67,0,0,0],[1,0.75,0,0,0],[1,0.78,0,0,0],[1,0.89,0,0,0],[1,1,0,0,0]];" vertex="1" parent="1">
           <mxGeometry x="110" y="240" width="120" height="290" as="geometry" />
         </mxCell>
@@ -87,6 +95,25 @@
         </mxCell>
         <mxCell id="_2r76jnfn3a2dYLXesWE-2" value="Ship To Warehouse" style="rounded=1;whiteSpace=wrap;html=1;points=[[0,0,0,0,0],[0,0.11,0,0,0],[0,0.22,0,0,0],[0,0.25,0,0,0],[0,0.33,0,0,0],[0,0.44,0,0,0],[0,0.5,0,0,0],[0,0.56,0,0,0],[0,0.67,0,0,0],[0,0.75,0,0,0],[0,0.78,0,0,0],[0,0.89,0,0,0],[0,1,0,0,0],[0.25,0,0,0,0],[0.25,1,0,0,0],[0.5,0,0,0,0],[0.5,1,0,0,0],[0.75,0,0,0,0],[0.75,1,0,0,0],[1,0,0,0,0],[1,0.11,0,0,0],[1,0.22,0,0,0],[1,0.25,0,0,0],[1,0.33,0,0,0],[1,0.44,0,0,0],[1,0.5,0,0,0],[1,0.56,0,0,0],[1,0.67,0,0,0],[1,0.75,0,0,0],[1,0.78,0,0,0],[1,0.89,0,0,0],[1,1,0,0,0]];fillColor=#f9f7ed;strokeColor=#36393d;" vertex="1" parent="1">
           <mxGeometry x="850" y="407" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;" edge="1" parent="1" source="RtewxfC8oNoZey-FWAlM-1" target="YERugrDjPcLo9yUdom8d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-3" value="File Drop" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RtewxfC8oNoZey-FWAlM-2">
+          <mxGeometry x="-0.2909" y="1" relative="1" as="geometry">
+            <mxPoint x="-5" y="-14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#007FFF;" edge="1" parent="1" source="RtewxfC8oNoZey-FWAlM-1" target="YERugrDjPcLo9yUdom8d-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-5" value="UI Screen" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RtewxfC8oNoZey-FWAlM-4">
+          <mxGeometry x="-0.8286" y="2" relative="1" as="geometry">
+            <mxPoint y="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RtewxfC8oNoZey-FWAlM-1" value="Bridge Portal" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;gradientColor=#7ea6e0;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="90" width="260" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
